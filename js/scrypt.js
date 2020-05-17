@@ -4,19 +4,19 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
 
     });
-});
-$('.block-10__slider').slick({
-    appendArrows: $('.block-10__arrows-for-slider'),
-    centerMode: true,
-    waitForAnimate: false,
-    fade: true,
-    responsive: [
-        {
-            breakpoint: 950,
-            settings: {
-                variableWidth: true,
-                fade: false
+    $('.block-10__slider').slick({
+        appendArrows: $('.block-10__arrows-for-slider'),
+        centerMode: true,
+        waitForAnimate: false,
+        fade: true,
+        responsive: [
+            {
+                breakpoint: 950,
+                settings: {
+                    variableWidth: true,
+                    fade: false
+                }
             }
-        }
-    ]
+        ]
+    });
 });
